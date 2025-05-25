@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <title>SMDF Accounting System</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<?php
-include('navigation.php');
+    <?php
+    include('navigation.php');
 
-$pages = [
-    'dashboard' => 'dashboard.php',
-    'revenue' => 'revenue/revenue.php',
-    'expense' => 'expense/expense.php',
-    'profit' => 'profit/profit.php'
-];
+    $pages = [
+        'dashboard' => 'dashboard.php',
+        'revenue' => 'revenue/revenue.php',
+        'expense' => 'expense/expense.php',
+        'profit' => 'profit/profit.php'
+    ];
 
-echo '<div class="content">';
-if (isset($_GET['page']) && isset($pages[$_GET['page']])) {
-    include $pages[$_GET['page']];
-} else {
-    echo "<p>Welcome to SMDF Database. Use the menu to navigate. </p>";
-}
+    echo '<div class="content">';
+    if (isset($_GET['page']) && isset($pages[$_GET['page']])) {
+        include $pages[$_GET['page']];
+    } else {
+        echo "<p>Welcome to SMDF Database. Use the menu to navigate. </p>";
+    }
 
-echo '</div>';
-?>
+    echo '</div>';
+    ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
