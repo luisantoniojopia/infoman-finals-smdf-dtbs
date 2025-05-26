@@ -4,11 +4,11 @@
 }
 
 .sidebar {
-  width: 220px;
+  width: 200px;
   background-color: #343a40;
   color: white;
   min-height: 100vh;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 .sidebar ul {
@@ -17,7 +17,11 @@
 }
 
 .sidebar li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar li:first-child {
+  padding-top: 4rem;
 }
 
 .sidebar a {
