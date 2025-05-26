@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>This is our revenue page</p>
 </body>
 </html>
