@@ -55,13 +55,13 @@ if (!$result) {
                 <h1 class="m-0">Revenue</h1>
                 <div class="action-buttons">
                     <button class="btn btn-primary me-2">
-                        <i class="fas fa-plus me-1"></i> Create
+                        <i class="fas fa-plus me-1"></i> Create Record
                     </button>
                     <button class="btn btn-outline-secondary me-2">
-                        <i class="fas fa-edit me-1"></i> Edit
+                        <i class="fas fa-edit me-1"></i> Edit Record
                     </button>
                     <button class="btn btn-outline-danger">
-                        <i class="fas fa-trash me-1"></i> Delete
+                        <i class="fas fa-trash me-1"></i> Delete Record
                     </button>
                 </div>
             </div>
