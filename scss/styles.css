@@ -1,3 +1,7 @@
+.dashboard {
+  background-color: lightyellow;
+}
+
 .revenue header .user-icon {
   color: #2c3e50;
 }
@@ -63,6 +67,14 @@
   .revenue .action-buttons .btn {
     margin-bottom: 0.5rem;
   }
+}
+
+.expense {
+  background-color: lightblue;
+}
+
+.profit {
+  background-color: lightgreen;
 }
 
 .wrapper {
