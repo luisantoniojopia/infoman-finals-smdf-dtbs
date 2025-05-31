@@ -36,7 +36,7 @@ if (!$result) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revenue Report</title>
 </head>
-<body>
+<body class="revenue">
     <div class="container-fluid">
         <!-- Header with User Info -->
         <header class="d-flex justify-content-between align-items-center py-3 mb-4 border-bottom">
