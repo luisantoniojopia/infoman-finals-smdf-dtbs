@@ -1,7 +1,3 @@
-body {
-  background-color: red;
-}
-
 header .user-icon {
   color: #2c3e50;
 }
@@ -11,7 +7,7 @@ header .username {
 }
 
 .search-filter-container {
-  background-color: white;
+  background-color: red;
   border: 1px solid #dee2e6;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -73,10 +69,6 @@ header .username {
     margin-bottom: 0.5rem;
   }
 }
-body {
-  background-color: red;
-}
-
 .wrapper {
   height: 100vh;
   display: flex;
@@ -131,6 +123,4 @@ body {
 
 .container-fluid {
   padding: 0 2rem;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
